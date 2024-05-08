@@ -1,4 +1,3 @@
-# <u>2: The principle structure of a program</u>
 
 - **Identifiers** - names the C standard gives to certain entities in the program. These refer to data objects, types, functions, constants
 	- **Type aliases** - *e.g. size_t* , underscore naming convention used for type identifiers
