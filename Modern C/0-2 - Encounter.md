@@ -8,8 +8,8 @@ Specifies what an identifier is supposed to represent. All identifiers must be d
 
 ```C
 int main(void){
-size_t i;
-double A[5];
+	size_t i;
+	double A[5];
 }
 ```
 i is of type size_t
