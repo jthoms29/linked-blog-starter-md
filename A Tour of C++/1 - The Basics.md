@@ -35,5 +35,6 @@ char& String::operator[](int index)
 0x34903 // hexidecimal
 0343    // octal
 
-3.1434'343'434343'34343 //single quotes can be used in literals for readabilityb
+
+3.1434'343'434343'34343 //single quotes can be used in literals for readability
 ```
