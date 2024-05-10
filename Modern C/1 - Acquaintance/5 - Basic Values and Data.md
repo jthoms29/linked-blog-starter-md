@@ -42,10 +42,10 @@ enum corvid { magpie, raven, jay, corvid_num, };
 //magpie = 0, raven = 1, etc
 //these can be used int tandem with arrays for a sort of map
 char const*const bird[corvid_num] = {
-	[jay] = "jay";
-	[magpie] = "magpie";
-	[raven] = "raven";
-}
+	[jay] = "jay",
+	[magpie] = "magpie",
+	[raven] = "raven"
+};
 ```
 enumeration constants are of type `signed int`
 They are integer constants, so there can't be any arithmetic
