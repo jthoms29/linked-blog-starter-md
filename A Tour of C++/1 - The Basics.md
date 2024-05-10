@@ -4,7 +4,7 @@ std::cout << "Hello, world\n";
 ```
 *The string literal is written onto the standard output stream
 
-### Importing
+# Importing
 There are two different ways to import libraries
 ```C++
 import std; //new, presents all of the stanard lib as module std
@@ -14,7 +14,7 @@ import std; //new, presents all of the stanard lib as module std
 
 `using namespace std;` allows you to not have to write std::whatever
 
-### Functions
+# Functions
 Work basically the same as in C
 **Member Functions** - functions that are the member of a class
 	For these, the name of the class is also part of the function type
@@ -22,7 +22,7 @@ Work basically the same as in C
 char& String::operator[](int index)
 ```
 
-### Types, Vars, Arithmetic
+# Types, Vars, Arithmetic
 **Declarations** - a statement that introduces an entity to a program and specifies its type
 ``int inch;``
 
@@ -48,7 +48,7 @@ void func() {
 }
 ```
 
-### Initialization
+# Initialization
 C++ offers a variety of notations for expressing initialization
 ```C++
 int i1 = 7.8  //i1 becomes 7
@@ -67,21 +67,21 @@ With this, we tend to you = because there is no potentially troublesome type con
 We use auto when we don't have a specific reason to type specifically
 
 
-### Scope and Lifetime
+# Scope and Lifetime
 - Local scope - exists only in functions
 - Class scope - called *member name* if defined in class, exists in class
 
 Any object created by `new` lives until destroyed by `delete`
 
 
-### Constants (what)
+# Constants (what)
 C++ supports tow notions of immutability
 `const`- I promise I will never ever ever ever ever ever ever change this
 `constexpr` - to be evaluated at compile time. Places data in read only memory
 `consteval` - used for when a function should only be evaluated at compile time
 
 
-### Pointers, Arrays, and References
+# Pointers, Arrays, and References
 Pointers work much the same way they do in C
 
 To print the values of an array, you can use this form of loop, a **range-for-statement**
@@ -110,7 +110,7 @@ double sum(const vector<double>&)
 ```
 
 
-### The Null Pointer
+# The Null Pointer
 We want to ensure a pointer always points to an object so that dereferencing is valid. Use `nullptr`
 ```C++
 double* pd = nullptr;
@@ -120,7 +120,7 @@ Use nullptr instead of NULL to eliminate potential confusion between integers (l
 nullptr will be read as false in logic statements
 
 
-### Tests
+# Tests
 Has ifs, switches, whiles, and fors
 
 `cin` input stream
@@ -135,7 +135,7 @@ if(auto n = v.size()) // n!=0 is done automatically
 
 
 
-### Mapping to Hardware
+# Mapping to Hardware
 Like C, C++ has direct mapping to hardware operations, making it very fast
 ###### Assignment
 An assignment of a built in type is a simple machine copy operation

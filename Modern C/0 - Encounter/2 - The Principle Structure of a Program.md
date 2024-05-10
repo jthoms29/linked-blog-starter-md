@@ -2,7 +2,7 @@
 - **Identifiers** - names the C standard gives to certain entities in the program. These refer to data objects, types, functions, constants
 	- **Type aliases** - *e.g. size_t* , underscore naming convention used for type identifiers
 
-### Declarations
+# Declarations
 Specifies what an identifier is supposed to represent. All identifiers must be declared, this is how they differ from keywords
 
 ```C
@@ -24,7 +24,7 @@ A declares an array
 ```
 *These can help with looking up function definitions*
 
-### Definitions
+# Definitions
 Declarations with initializations defines objects with corresponding names
 
 ```C
