@@ -24,7 +24,7 @@ do {
 # Multiple Selection
 Switch statements
 ```C
-if (arg) {
+switch (arg) {
 case 'm' : puts("this is a magpie");
            break;
 case 'r' : puts("this is a raven");
