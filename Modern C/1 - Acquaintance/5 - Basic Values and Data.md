@@ -58,7 +58,7 @@ Allows textual replacement of program code using the preprocessor instruction
 # define M_PI 3.41459  //no ;
 ```
 This allows us to have constants of `unsigned, size_t, and double`
-ALL CAPS WHEN YOU SPELL THE NAME
+ALL CAPS WHEN YOU SPELL THE NAME, don't put semicolons
 
 ## Compound Literals
 For types that don't have literals that describe their constants
@@ -69,10 +69,11 @@ For types that don't have literals that describe their constants
 	[cough] = "cough"            \
 	}
 ```
-
+```C
+for (unsigned i = 0; i < corvid_num; ++i)
+printf(”Corvid %u is the %s\n”, i, CORVID_NAME[i]);
+```
 
 # Binary Representations
 The max value of a type can be got from `limits.h`
 `UINT_MAX, ULONG_MAX, ULLONG_MAX`
-
-
