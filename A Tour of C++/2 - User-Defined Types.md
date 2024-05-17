@@ -1,4 +1,8 @@
-# Structures
+TARGET DECK
+A Tour of C++::2 - User Defined Types
+
+# Structures #flashcard 
+
 ```C++
 struct Vector {
 	double* elem; //pointer to elements
@@ -9,6 +13,8 @@ A variable of type vector can be defined like this
 ```C++
 Vector v;
 ```
+<!--ID: 1715968489569-->
+
 
 This isn't useful on it's own, the element pointer doesn't point to anything, so
 ```C++
@@ -20,11 +26,16 @@ void vector_init(Vector& v, int s)
 ```
 - The & in `Vector&` indicates we pass `v` by non-`const` reference, so the function can modify the struct passed in
 - The `new` operator allocates mem from the heap
-## Data access
+
+## Data access  #flashcard 
+
 - `.` is used for variables passed by name and references, `->` is used for pointers
+<!--ID: 1715968489573-->
 
 
-# Classes
+
+# Classes #flashcard 
+
 Similar to structs
 ```C++
 class Vector {
@@ -41,6 +52,10 @@ Given this, we can define a variable of our new type `Vector`
 ```C++
 Vector v(6);
 ```
+<!--ID: 1715968489577-->
+
+
+## Constructors #flashcard 
 
 - A member functions with the same name is called constructor, so `Vector()` replaces `vector_init()`
 - You can use an *initializer list* to set default variables of a function
@@ -48,23 +63,37 @@ Vector v(6);
 :elem{new double[s], sz[s]};
 ```
 *This sets `elem` to be a new double array on the heap, and `sz` to the value of `s`*
+<!--ID: 1715968489582-->
+
+
+## Difference between Class and Structs #flashcard 
 
 A class is simply a struct with members private by default, there's no other actual difference
+<!--ID: 1715968489586-->
 
 
-# Enumerations
+
+# Enumerations #flashcard 
+
 Similar to C, but accessing the enumerators is different
 ```C++
 enum class Color {red, blue, green };
 Color col = Color::red;
 ```
 Used to make code more readable
+<!--ID: 1715968489590-->
+
+
+## Enum Class Limitations #flashcard 
 
 You cannot mix together different enumerator variables, and you can't set the values to `int`
 To do this you need to do an explicit conversion
 ```C++
 int x = int(Color::red);
 ```
+<!--ID: 1715968489594-->
+
+
 
 Since enumerations are user defined types, we can also define operations for it
 ```C++
@@ -100,7 +129,8 @@ int col = green;
 ```
 
 
-# Unions
+# Unions #flashcard 
+
 A unions is a struct in which all members are allocated at the same address so that the union occupies only as much space as the largest member. It can only hold one value at a time
 ```C++
 enum class Type { ptr, num }; // a Type can hold values ptr and num (§2.4)
@@ -110,7 +140,7 @@ struct Entry {
 	Node∗ p; // use p if t==Type::ptr
 	int i; // use i if t==Type::num
 };
-
+//
 void f(Entry∗ pe)
 {
 	if (pe->t == Type::num)
@@ -118,7 +148,7 @@ void f(Entry∗ pe)
 // ...
 }
 ```
-
+//
 `p` and `i` are never used at the same time, so space is wasted. It can be recovered by specifying that both should be a member of a union
 ```C++
 union Value {
@@ -127,6 +157,9 @@ union Value {
 }
 ```
 `Value::p` and `Value::i` are placed at the same address of memory. The language doesn't keep track of what type it's currently set to, so you must keep track
+<!--ID: 1715968489599-->
+
+
 
 ```C++
 struct Entry {
@@ -143,7 +176,9 @@ void f(Entry∗ pe)
 }
 ```
 Keeping track of types with a tag like this (`t`) is error prone. Encapsulate the union and type field in a class and offer access only through member functions that use the unions correctly. This is called a
-## Variant
+
+## Variant #flashcard 
+
 A variant stores a value of one of a set of types, e.g.; `variant<Node*, int>` holds either.
 ```C++
 struct Entry {
@@ -156,5 +191,6 @@ void f(Entry∗ pe)
 		cout << get<int>(pe->v); // get the int
 	// ...
 }
-
 ```
+Use these instead of unions to avoid errors
+<!--ID: 1715968489604-->
