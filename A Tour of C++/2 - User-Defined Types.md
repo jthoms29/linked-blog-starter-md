@@ -1,4 +1,4 @@
-i# Structures
+# Structures
 ```C++
 struct Vector {
 	double* elem; //pointer to elements
