@@ -33,3 +33,7 @@ size_t size_min(size_t a, size_t b) {
 `time_t` and `clock_t` are used to handle times
 `difftime()` - compares difference in timestamps, can be used in arithmetic
 `CLOCKS_PER_SEC` can convert `clock_t` values to seconds
+
+## `perror` <!--fc-->
+A function from `stdio.h`. Used to provide reasoning for error before exiting
+<!--ID: 1716175964681-->
