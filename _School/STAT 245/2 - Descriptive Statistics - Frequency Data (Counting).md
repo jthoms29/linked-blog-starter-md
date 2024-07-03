@@ -1,6 +1,14 @@
 TARGET DECK
 School::STAT 245::02 - Descriptive Statistics - Frequency Data (Counting)
 
+# Relative Frequency <!--fc-->
+$$
+\frac{\text{frequency of category}}{\text{sum of all frequencies}}
+$$
+*2 or 3 significant figures*.
+- All relative frequencies should sum to 1.
+<!--ID: 1719942261261-->
+
 # Frequency Tables
 
 ## Steps for Constructing a Frequency Table <!--fc-->
@@ -30,8 +38,44 @@ $$
 <!--ID: 1719286673933-->
 
 
+### Class Range <!--fc-->
+$$
+R = H-L
+$$
+(limits, not boundaries)
+<!--ID: 1719958144960-->
+
+
+### Class Width <!--fc-->
+Upper boundary - Lower Boundary
+*i.e. the .5 values*
+*or*
+$$
+\frac{\text{Range + 1}}{\text{number of classes}}
+$$
+<!--ID: 1719958078872-->
+
+
+### Class Midpoint <!--fc-->
+$$
+\frac{\text{Upper limit + Lower limit}}{2}
+$$
+*i.e. NOT the .5 values, not boundaries
+<!--ID: 1719958078877-->
+
+
+### Class Boundary <!--fc-->
+The midpoint of the upper limit of one class and the lower limit of the next class
+![[Pasted image 20240702120124.png]]
+<!--ID: 1719958078882-->
+
+### Class Limits <!--fc-->
+The standard upper and lower values of the class
+<!--ID: 1719958078849-->
+
 
 The columns feature a specific way of labelling classes. This is to make the class names useful for seeing that the classes are uniquely defined - there will be no data points on the boundaries of the classes
+
 ## Constructing a frequency table <!--fc-->
 - Class
 - Class Boundaries
@@ -48,37 +92,44 @@ The columns feature a specific way of labelling classes. This is to make the cla
 The last number in the cumulative frequency column, $n$, should equal number of data points as a check since it is the sum of the frequencies. The sum of the relative frequencies will be 1.
 <!--ID: 1719286673951-->
 
+## What columns use limits or boundaries <!--fc-->
+- Range - limit
+- Midpoint - limit
+- Width - boundaries
+Width is the only calculation that uses the boundaries i.e. the .5 values
+<!--ID: 1719958446500-->
+
 
 ## ==Examples @@@@@@@@@@@@@@@@@@@@@@==
 
-### FREQUENCY TABLE CONSTRUCTION EXAMPLE 1:
-25 army inductees were tested for blood type. The data are:
+-  FREQUENCY TABLE CONSTRUCTION EXAMPLE 1:
+	25 army inductees were tested for blood type. The data are:
 
-![[Pasted image 20240624210605.png]]
-**Step 1**: Classes given: A B O AB
-**Step 2**: Construct frequency table:
-![[Pasted image 20240624210658.png]]
+	![[Pasted image 20240624210605.png]]
+	**Step 1**: Classes given: A B O AB
+	**Step 2**: Construct frequency table:
+	![[Pasted image 20240624210658.png]]
 
 
-### FREQUENCY TABLE CONSTRUCTION EXAMPLE 2:
-Given the high temperature data for each of the 50 states for the month of July, construct a frequency table using 7 classes:
+- FREQUENCY TABLE CONSTRUCTION EXAMPLE 2:
+	Given the high temperature data for each of the 50 states for the month of July, construct a frequency table using 7 classes:
 
-![[Pasted image 20240625112409.png]]
+	![[Pasted image 20240625112409.png]]
 
-**Step 1**:
-(a)
-- High limit, H = 134
-- Low limit, L = 100
-(b)
-- Range: 
-$$R = H - L = 34$$
-(c)
-- Class width:
-$$
-W = \frac{R+1}{G} = \frac{34+1}{7}=5
-$$
-**Step 2**:
-![[Pasted image 20240625112937.png]]
+	**Step 1**:
+	(a)
+	- High limit, H = 134
+	- Low limit, L = 100
+	(b)
+	- Range: 
+	$$R = H - L = 34$$
+	(c)
+	- Class width:
+	$$
+	W = \frac{R+1}{G} = \frac{34+1}{7}=5
+	$$
+	**Step 2**:
+	![[Pasted image 20240625112937.png]]
 
 ==@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@==
 
@@ -95,6 +146,11 @@ After constructing a frequency table, there are multiple different graphical way
 A bar graph plotting the frequency column in the frequency table
 ![[Pasted image 20240625114522.png]]
 <!--ID: 1719351462275-->
+
+### frequency value of bar graph <!--fc-->
+The base value, no other calculations
+<!--ID: 1719958078888-->
+
 
 
 ### Relative Frequency Histogram <!--fc-->

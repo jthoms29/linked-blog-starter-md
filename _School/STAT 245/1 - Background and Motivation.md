@@ -18,6 +18,21 @@ The use of probability to infer things about a population from a sample through 
 The numbers we collect (plural, datum is singular)
 <!--ID: 1718996683146-->
 
+## Sample <!--fc-->
+A portion of the population selected for a sample
+<!--ID: 1719941322441-->
+
+
+### Random Sample <!--fc-->
+A sample drawn is such a way that each element of the population has a chance of being selected
+<!--ID: 1719941322463-->
+
+
+### Simple random sampling <!--fc-->
+Occurs when all samples of the same size are selected from a population with the same chance of being selected
+<!--ID: 1719941322471-->
+
+
 
 ## Variable <!--fc-->
 A mathematical term used to denote something that can take on a range of variables
@@ -47,15 +62,19 @@ A dependent variable with random noise added. Denoted by a capital letter like *
 Described by a word, e.g. gender with 'values' male or female. Converted to *discrete quantitative variables* before analysis (e.g. male = 1, female = 2)
 <!--ID: 1718996683170-->
 
+## Quantitative Variables
 
 ### Discrete Variable <!--fc-->
 Integer valued. In mathematical symbols $x \in \mathbb{Z}$. e.g. -2, -1, 0, 1, 2, ...etc
 <!--ID: 1718996683177-->
 
-
 ### Continuous Variable <!--fc-->
 Real values, essentially any number. $x \in \mathbb{R}$. 
 <!--ID: 1718996683183-->
+
+## Dataset <!--fc-->
+A collection of observations on one or more variables
+<!--ID: 1719942261292-->
 
 
 ## Grouping <!--fc-->

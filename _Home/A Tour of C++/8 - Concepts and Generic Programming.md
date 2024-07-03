@@ -70,5 +70,7 @@ Using a `requires` expression, we can check if a set of expressions is valid
 	- `requires(iter p, int i) { p[i]; p+i }`
 		A requires-expression is a predicate which is `true` if the statements are valid code and `false` if not.
 requires-expressions should not be seen in ordinary code. They belong in implementations of abstractions.
+<!--ID: 1719939587884-->
+
 
 #### ==\*\*==Use of `requires requires`
