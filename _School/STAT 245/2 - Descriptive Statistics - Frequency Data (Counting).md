@@ -27,6 +27,7 @@ Construct the frequency table and fill it in
 $$
 R = H - L
 $$
+*That is, the absolute highest and the absolute lowest value in the whole dataset*
 - Compute the class width:
 $$
 W = \frac{R+1}{G}
@@ -46,12 +47,13 @@ $$
 <!--ID: 1719958144960-->
 
 
+
 ### Class Width <!--fc-->
 Upper boundary - Lower Boundary
 *i.e. the .5 values*
 *or*
 $$
-\frac{\text{Range + 1}}{\text{number of classes}}
+\frac{\text{Total Range + 1}}{\text{number of classes}}
 $$
 <!--ID: 1719958078872-->
 
@@ -98,6 +100,16 @@ The last number in the cumulative frequency column, $n$, should equal number of 
 - Width - boundaries
 Width is the only calculation that uses the boundaries i.e. the .5 values
 <!--ID: 1719958446500-->
+
+## Regular Class size <!--fc-->
+Width - 1
+<!--ID: 1720148899045-->
+
+
+## Frequency Tables with categorical Classes <!--fc-->
+Class boundaries aren't needed, classes can be in any order. Cumulative frequency is still needed.
+<!--ID: 1720148899053-->
+
 
 
 ## ==Examples @@@@@@@@@@@@@@@@@@@@@@==
