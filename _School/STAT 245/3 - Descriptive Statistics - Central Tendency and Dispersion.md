@@ -243,3 +243,46 @@ $$
 <!--ID: 1720307195673-->
 
 
+## Five-Number Summary <!--fc-->
+The *five-number summary* of a dataset consists of the
+- Smallest number
+- First quartile
+- Median
+- Third quartile
+- Largest
+$$
+\text{Min }Q_{1}\text{ Median }Q_{3}\text{ Max}
+$$ 
+<!--ID: 1720543134998-->
+
+
+## Box-and-Whisker Plot <!--fc-->
+The *lower and upper inner fences* of a dataset are
+$$
+\begin{gather}
+\text{Lower inner fence} = Q_{1} -(1.5)\text{IQR} \\
+\text{Upper inner fence}=Q_{3}+(1.5)\text{IQR}
+\end{gather}
+$$
+<!--ID: 1720543135013-->
+
+
+
+### Outliers <!--fc-->
+If a data point lies outside the fences, it is considered an *outlier*
+<!--ID: 1720543135027-->
+
+
+
+# Percentiles
+## Calculating Percentiles 
+To calculate percentiles, $P_{i}$, let $i$ be the ordered position of a data set of $n$ data points, then let the percentile position of $x_{i}$ to be
+![[Pasted image 20240708104623.png]]
+where $n$ represents sample sizes
+
+## Calculate position from percentile 
+If you want to find the position, $i$ of the data point corresponding to a given percentile $P$, then compute
+![[Pasted image 20240708104800.png]]
+
+
+
