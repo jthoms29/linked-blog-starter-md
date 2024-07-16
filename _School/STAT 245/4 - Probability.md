@@ -5,46 +5,68 @@ School::STAT 245::04 - Probability
 
 ## Experiment <!--fc-->
 A process that, when performed, results in one and only one of many observations. The observations are called the outcomes, and the collection of outcomes for an experiment is called a sample space.
+<!--ID: 1720808261629-->
+
 
 ## Outcomes <!--fc-->
 The observations made during an experiment
 ![[Pasted image 20240710195900.png]]
+<!--ID: 1720808261641-->
+
 
 ## Sample Space <!--fc-->
 The collection of outcomes for an experiment
 Denoted by $S = \{\}$
 ![[Pasted image 20240710195932.png]]
+<!--ID: 1720808261652-->
+
 
 ## Event <!--fc-->
 A collection of one or more outcomes of an experiment
+<!--ID: 1720808261664-->
+
 
 ## Simple Event <!--fc-->
 An event that includes one and only one of the final outcomes for an experiment, denoted by $E_{i}$
+<!--ID: 1720808261675-->
+
 
 ## Compound Event <!--fc-->
 A collection of more than one outcomes for and experiment, denoted by $A$
+<!--ID: 1720808261691-->
+
 
 # Calculating Probability
 
 ## Probability <!--fc-->
 A numerical measure of the likelihood that a specific event will occur
+<!--ID: 1720808261704-->
+
 
 ## First Property of Probability <!--fc-->
 The probability of any particular outcome occurring is between 0 and 1 (inclusive)
 ![[Pasted image 20240710223709.png]]
 *$E_{i}$ is a single event*
 *A is a compound event*
+<!--ID: 1720808261715-->
+
 
 ## Second Property of Probability <!--fc-->
 The sum of probabilities for all simple events in an experiment is equal to 1.
 ![[Pasted image 20240710224301.png]]
+<!--ID: 1720808261728-->
+
 
 ## Equally likely outcomes <!--fc-->
 Refer to two or more outcomes that have the same probability of occurrence
+<!--ID: 1720808261739-->
+
 
 ## The Classical Probability Rule <!--fc-->
 Given that $E_{i}$ is a simple event and $A$ is a compound event, then
 ![[Pasted image 20240710230542.png]]
+<!--ID: 1720808261751-->
+
 
 ### ==\*\*==Example: Coin experiment
 	![[Pasted image 20240710230633.png]]
@@ -61,6 +83,8 @@ A : Observer similar faces
 $$
 P(A) = P(\text{HH}) + P(\text{TT}) = P(E_{1}) + P(E_{4}) = \frac{1}{4} + \frac{1}{4} = \frac{2}{4}
 $$
+<!--ID: 1720808261763-->
+
 
 # Marginal Probability, Conditional Probability, Related Probability Concepts
 
@@ -69,6 +93,8 @@ The probability of a single event without consideration of any other event.
 *Example:*
 	![[Pasted image 20240711152318.png]]
 	The only consideration made is 'Male'
+<!--ID: 1720808261774-->
+
 
 ## Conditional Probability <!--fc-->
 The probability that an event will occur given that another event has already occurred. If $A$ and $B$ are two evens, the conditional probability of $A$ given $B$ is written as:
@@ -78,14 +104,20 @@ The probability that an event will occur given that another event has already oc
 	Outcomes need to be both 'In favor' and 'Male' to be considered, and it is compared to number of males
 	**Order matters, A given B, B is denominator**
 	![[Pasted image 20240711162502.png]]
+<!--ID: 1720808261785-->
+
 
 ## Mutually Exclusive Events <!--fc-->
 Events that can not occur together.
 ![[Pasted image 20240711162859.png]]
+<!--ID: 1720808261797-->
+
 
 ## Compliment of an Event <!--fc-->
 The compliment of event $A$ denoted by $\bar{A}$ or $A^c$ is the event that included all outcomes for an experiment that are not in $A$\
 ![[Pasted image 20240711163218.png]]
+<!--ID: 1720808261808-->
+
 
 ## ==\*\*==Example: Complimentary events
 	![[Pasted image 20240711164355.png]]
@@ -98,6 +130,8 @@ Let $A$ and $B$ be two events defined in a sample space. The *intersection* of t
 *Example*
 ![[Pasted image 20240711165737.png]]
 *Denominator is total*
+<!--ID: 1720808261820-->
+
 
 ## Calculating Conditional Probability <!--fc-->
 To calculate *conditional probability* for $A$ and $B$, then
@@ -105,6 +139,8 @@ To calculate *conditional probability* for $A$ and $B$, then
 	![[Pasted image 20240711175256.png]]
 2. The conditional probability of event $B$, given that event $A$ has occurred is:
 	![[Pasted image 20240711175337.png]]
+<!--ID: 1720808261831-->
+
 
 ## Independent Events <!--fc-->
 The idea that one event does not affect the probability of the next event.
@@ -113,6 +149,8 @@ $A$ and $B$ are independent iff:
 \*\***You can also check this using conditional probabilities in both orders**
 *Example:*
 	![[Pasted image 20240711195328.png]]
+<!--ID: 1720808261843-->
+
 
 
 ## Mutually Exclusive Events <!--fc-->
@@ -130,10 +168,14 @@ Two events $A$ and $B$ are *mutually exclusive* iff:
 ## Union <!--fc-->
 The *union* of events $A$ and $B$, denoted by $A \cap B$, is the collection of events that belong either to $A$ or $B$ or both.
 ![[Pasted image 20240711193904.png]]
+<!--ID: 1720808261858-->
+
 
 ## Calculating the probability of a union <!--fc-->
 The probability of the union of two events $A$ and $B$ is
 ![[Pasted image 20240711194414.png]]
+<!--ID: 1720808261866-->
+
 
 # Counting Rule, Factorials, Combinations, Permutations
 
@@ -144,8 +186,10 @@ Consider an experiment that is performed on two stages. If the first stage can b
 If there is $k$ stages with $n_{1}$ ways to accomplish, then $n_{2}$ ways, etc., then the number of ways to accomplish the experiment is $n_{1}n_{2}n_{3}\dots n_{k}$
 *Example:*
 	![[Pasted image 20240711210034.png]]
+<!--ID: 1720808261874-->
 
-## Calculating Combinations <!--fc-->
+
+## Calculating Combinations <!--fc-->![[Pasted image 20240711210512.png]]
 The number of $n$ distinct objects that can be formed, taking them $r$ at a time, is
 ![[Pasted image 20240711210512.png]]
 **Order does not matter: ABC, CAB <- 1 combination**
@@ -159,10 +203,13 @@ The number of ways we can arrange $n$ distinct objects, taking them $r$ at a tim
 **Order matters: ABC, CBA <- 2 permutations
 *Example:*
 	![[Pasted image 20240711211707.png]]
+<!--ID: 1720808261883-->
+
 
 ## Number of ways to arrange entire set <!--fc-->
-The number of ways to arrange an entire set of $n$ distinct items is
+The number of ways to arrange an entire set of $n$ distinct items is the permutations taken $n$ at a time.
 ![[Pasted image 20240712074305.png]]
 *Example:*
 	![[Pasted image 20240712074330.png]]
 			
+<!--ID: 1720808261894-->
