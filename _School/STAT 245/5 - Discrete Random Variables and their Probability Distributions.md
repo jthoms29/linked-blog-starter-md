@@ -42,7 +42,7 @@ $$
 	In tossing a fair coin, there is
 	![[Pasted image 20240712094152.png]]
 
-	In tossing and unfair die:
+	In tossing an unfair die:
 	![[Pasted image 20240712094212.png]]
 	![[Pasted image 20240712094225.png]]
 
@@ -67,9 +67,10 @@ where the elements are summed over all values of the random variable $x$
 
 ## Variance of discrete random variable <!--fc-->
 Let $x$ be a discrete random variable with probability distribution $p(x)$.
-The *variance of $x$ is:*
-![[Pasted image 20240712103551.png]]
-<!--ID: 1720808261587-->
+The variance of $x$ is
+![[Pasted image 20240717105631.png]]
+<!--ID: 1721260349120-->
+
 
 
 # The Binomial Probability Distribution
@@ -88,10 +89,11 @@ A *Binomial Experiment* is an experiment that has these five characteristics:
 ![[Pasted image 20240712104241.png]]
 
 ## The probability of $k$ successes in a binomial experiment <!--fc-->
-A binomial experiment consists of $n$ identical trials with probability of success $p$ on each trial. The probability of $k$ successes in $n$ trials is:
-![[Pasted image 20240712104440.png]]
+A binomial experiment consists of $n$ identical trials with probability of success $p$ on each trial. The probability of $k$ successes in $n$ trials is
+![[Pasted image 20240717105546.png]]
 for all values of $k = 0,1,2,\dots,n$
-<!--ID: 1720808261615-->
+<!--ID: 1721260349128-->
+
 
 
 ## '*At least*' in binomial experiment question <!--fc-->
@@ -116,3 +118,6 @@ $$
 $$
 <!--ID: 1721096371543-->
 
+## Significant Digits for binomial Experiment <!--fc-->
+*You need 4*
+<!--ID: 1721151371241-->
