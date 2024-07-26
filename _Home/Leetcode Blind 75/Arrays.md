@@ -14,6 +14,21 @@ Use two pointers; `start` and `end` starting at the start and end of the array, 
 Sort the array, and loop through the numbers. For each number, use two pointers set to i+1 and length-1, and if they aren't equal to -number, either increment the left or decrement the right depending on if it's greater or less. Each time they are equal, add it to the solution list. Stop when left !< right
 <!--ID: 1718928213503-->
 
+# Maximum Product Subarray: Given an array, find the maximum product that can be computed from a contiguous subarray <!--fc-->
+Set result to first element of array, and make variables for current (the current element) min and max.
+For each new element in the array, check if the current max is:
+- current max * n
+- current min * n (because of negative * negative)
+- or just n
+Do the same thing for the minimum (for min * n calculation)
+At the end of each loop check if the current max is larger than the result. If so, swap them.
+<!--ID: 1721593271511-->
+
+# Maximum Subarray: Given an array, find the maximum sum that can be computed from a contiguous subarray <!--fc-->
+Set result to first element of the array. Make a variable the curMax set to 0.
+Iterate linearly through the array, checking to see if the maximum current value is curMax + n or just n. Then check to see if curMax is greater than the result, and swap it out if true.
+<!--ID: 1721655481320-->
+
 
 
 

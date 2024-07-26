@@ -130,10 +130,14 @@ $$
 	Let $x$ be a normally distributed random variable with a mean of 10 and a standard deviation of 2. Find $P(11\leq x\leq 13.6)$
 	![[Pasted image 20240719105841.png]]
 	![[Pasted image 20240719105848.png]]
+<!--ID: 1721593271494-->
+
 
 
 ## Value outside of range after normalizing <!--fc-->
 This will have a probability of either 0 or 1 as the graph extends infinitely +/-.
+<!--ID: 1721593271504-->
+
 
 
 ## Finding missing $x$ value with un-normalized values
