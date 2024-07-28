@@ -41,6 +41,14 @@ The *margin or error* for the estimate $\mu$, denoted by $E$, is the quantity th
 <!--ID: 1721952266847-->
 
 
+## General Margin of Error equation <!--fc-->
+$$
+E = z\left( \frac{s}{\sqrt{ n }} \right)
+$$
+<!--ID: 1722011943628-->
+
+
+
 ## Find constants in margin of error calculation <!--fc-->
 Find the absolute $< z$ value that corresponds to the wanted margin of error percentage
 <!--ID: 1721952266851-->
@@ -84,7 +92,79 @@ The probability that a confidence interval will contain the estimated parameter.
 <!--ID: 1721952266886-->
 
 
+# Confidence Intervals For Small Samples
 
 ## t-statistic
-Used for small samples ($n<30$), we use the t-statistic approach where
+Used for small samples ($n\leq30$), we use the t-statistic approach where
 ![[Pasted image 20240725121156.png]]
+
+
+## Confidence intervals for small samples <!--fc-->
+![[Pasted image 20240726110517.png]]
+<!--ID: 1722043380711-->
+
+
+## General Equation - Confidence interval for small sample <!--fc-->
+$$
+\bar{x} \pm t_{n-1, \frac{\alpha}{2}}\left( \frac{s}{\sqrt{ n }} \right)
+$$
+<!--ID: 1722043380715-->
+
+
+
+## Using t-table <!--fc-->
+$$
+t_{n-1, \frac{\alpha}{2} }
+$$
+$n-1$ : total - 1   
+	*row*
+$\frac{\alpha}{2}$ : (1 - confidence percent) / 2      
+	*column*
+<!--ID: 1722043380719-->
+
+
+
+## ==\*\*==Example: Small sample size <!--fc-->
+![[Pasted image 20240726111348.png]]
+![[Pasted image 20240726111400.png]]
+<!--ID: 1722043380723-->
+
+
+
+# Estimation of a Population Proportion: Large Samples
+
+## Point estimator for proportion $p$ in large binomial population <!--fc-->
+$$
+\hat{p} = \frac{x}{n}
+$$
+<!--ID: 1722043380727-->
+
+
+## Margin of error for proportion $p$ in large binomial population <!--fc-->
+$$
+E = z\sqrt{ \frac{\hat{p}(1-\hat{p})}{n} }
+$$
+<!--ID: 1722043380737-->
+
+
+
+## ==\*\*==Example: Margin of error for proportion <!--fc-->
+![[Pasted image 20240726115117.png]]![[Pasted image 20240726115126.png]]
+$$
+\hat{p}\pm z\sqrt{ \frac{\hat{p}(1-\hat{p})}{n} }
+$$
+![[Pasted image 20240726121604.png]]
+<!--ID: 1722043380744-->
+
+
+
+
+
+## Determining Sample size for the estimation of $p$ in proportion based on confidence level <!--fc-->
+![[Pasted image 20240726115529.png]]
+<!--ID: 1722043380749-->
+
+
+
+
+

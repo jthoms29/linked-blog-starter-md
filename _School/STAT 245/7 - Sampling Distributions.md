@@ -18,7 +18,7 @@ The errors that occur in the collection, recording, and tabulation of data
 
 # Applications of the sampling distribution of $\bar{x}$
 
-## ==Normalized sampling distribution of $\bar{x}$== <!--fc-->
+## Normalized sampling distribution of $\bar{x}$== <!--fc-->
 For $\bar{x}$ distribution, the standard normalized $z$ is defined as
 $$
 z = \frac{\bar{x}-\mu}{\frac{\sigma}{\sqrt{ n }}}
@@ -47,7 +47,7 @@ $$
 
 
 
-## ==Normalizing a sample proportion ($z$ value)== <!--fc-->
+## Normalizing a sample proportion ($z$ value)== <!--fc-->
 $$
 z = \frac{\hat{p}-p}{\sqrt{ \frac{p(1-p)}{n} }}
 $$
