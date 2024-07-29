@@ -111,7 +111,7 @@ Most of the time, the probabilities involve $x$, a normal random variable with m
 
 
 
-## ==Finding $z$ value when standardizing normal distribution <!--fc-->
+## Finding $z$ value when standardizing normal distribution <!--fc-->
 The standardized normal random variable, $z$, is defined as
 $$
 z = \frac{x-\mu}{\sigma}
