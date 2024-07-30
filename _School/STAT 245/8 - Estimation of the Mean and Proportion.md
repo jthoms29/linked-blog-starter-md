@@ -165,6 +165,11 @@ $$
 <!--ID: 1722043380749-->
 
 
+## No proportion estimate given <!--fc-->
+Assume 0.5
+<!--ID: 1722291133309-->
+
+
 
 
 
