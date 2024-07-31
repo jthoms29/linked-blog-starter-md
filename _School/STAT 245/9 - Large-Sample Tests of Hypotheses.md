@@ -87,4 +87,37 @@ $$
 <!--ID: 1722291133304-->
 
 
+## How to use $p$-value approach <!--fc-->
+- First calculate critical value
+- Find probability that $z$ is less than and greater than this value and add them together
+- Reject if $p$-value is less than $\alpha$
+	![[Pasted image 20240730111244.png]]
+<!--ID: 1722373461203-->
+
+
+
+
+# Small-Sample Hypotheses for $\mu$ <!--fc-->
+![[Pasted image 20240730113045.png]]
+Comparison is made to $t$ value rather than $z$ value.
+*Do not divide alpha by 2 if single tailed*
+*make left tailed value negative*
+<!--ID: 1722373461216-->
+
+
+
+
+# Hypotheses Tests about a Population Proportion <!--fc-->
+Three types of statistical tests of hypotheses for the binomial population parameter $p$:
+![[Pasted image 20240730121333.png]]
+<!--ID: 1722373461223-->
+
+
+
+## Critical Value Approach for testing $H_{0}$ about $p$ <!--fc-->
+![[Pasted image 20240730121413.png]]
+*compare normalized proportion value to z value of $a$*
+<!--ID: 1722373461232-->
+
+
 
