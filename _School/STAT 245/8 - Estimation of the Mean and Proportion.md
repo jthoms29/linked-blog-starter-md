@@ -50,8 +50,12 @@ $$
 
 
 ## Find constants in margin of error calculation <!--fc-->
-Find the absolute $< z$ value that corresponds to the wanted margin of error percentage
+Find the absolute $< z$ value that corresponds to the wanted margin of error percentage =
+$$
+\frac{1-\%}{2} 
+$$
 <!--ID: 1721952266851-->
+
 
 
 ## Determining sample size for an estimation of $\mu$ <!--fc-->
